@@ -3,7 +3,7 @@ const adminRouter=Router();
 
 
 adminRouter.post("/signup",function(req,res){
-
+    const {username,password}=req.body
 });
 
 
