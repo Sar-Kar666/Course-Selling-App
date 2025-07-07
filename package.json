@@ -1,7 +1,6 @@
 {
   "name": "course-selling-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +16,15 @@
     "url": "https://github.com/Sar-Kar666/Course-Selling-App/issues"
   },
   "homepage": "https://github.com/Sar-Kar666/Course-Selling-App#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "github:types/express",
+    "@types/jsonwebtoken": "^9.0.10",
+    "typescript": "^5.8.3"
+  },
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1"
   }
 }
